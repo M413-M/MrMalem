@@ -6,10 +6,10 @@
 
 # Thanks To : 4WSec - MR.Tenwap - ChokyChoky.ID
 
-Greetz    : Anak Bawang Cyber - Security Darknet - Moslem Cyber Team
+Greetz     : Anak Bawang Cyber - Security Darknet - Moslem Cyber Team
 -----------------------------------------------------------------------
 
-How To Install :
+# How To Install :
 
 sudo apt-get update && upgrade
 
