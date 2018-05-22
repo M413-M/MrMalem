@@ -4,7 +4,7 @@
 
 ==================================================================================================
 
-Thanks To : 4WSec - MR.Tenwap - ChokyChoky.ID
+# Thanks To : 4WSec - MR.Tenwap - ChokyChoky.ID
 
 Greetz    : Anak Bawang Cyber - Security Darknet - Moslem Cyber Team
 -----------------------------------------------------------------------
@@ -26,11 +26,11 @@ chmod +x mrmalem
 Use : sudo ./mrmalem
 -----------------------------------------------------------------------
 
-Thanks For Using My Tools :))
+# Thanks For Using My Tools :))
 
 
 Contact ?
-Email       : m413-m@dr.com
-Instagram   : mr.malem
+# Email       : m413-m@dr.com
+# Instagram   : mr.malem
 
 ==================================================================================================
