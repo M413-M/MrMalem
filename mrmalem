@@ -74,7 +74,7 @@ echo -e $red "Type Ctrl+c For Exit"
 
 
 echo ""
-read -p "         [ Chose Number for Install ] >>  " sd;
+read -p "         [ Type Number for Install ] >>  " sd;
 
 if [ $sd = 01 ] || [ $sd = 01 ]
 then 
