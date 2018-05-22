@@ -3,9 +3,9 @@
 # coded by Mr.Malem
 
 ===================================================================================================================================
+Thanks To : 4WSec - MR.Tenwap - ChokyChoky.ID
 
-echo "Thanks To : 4WSec - MR.Tenwap - ChokyChoky.ID"
-echo "Greetz    : Anak Bawang Cyber - Security Darknet - Moslem Cyber Team"
+Greetz    : Anak Bawang Cyber - Security Darknet - Moslem Cyber Team
 -----------------------------------------------------------------------
 
 How To Install :
