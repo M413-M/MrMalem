@@ -1,0 +1,323 @@
+#!/bin/bash
+#this file was created on 22/05/2018
+#created by M413-M
+
+green='\e[1;32m'
+red='\e[1;31m'
+white='\e[1;37m'
+yellow='\e[1;33m'
+blue='\e[0;34m'
+
+clear
+###############################################################
+trap ctrl_c INT
+ctrl_c() {
+clear
+echo -e $red" >> Thanks For Using My Tools :)) <<"
+echo -e $white"               M413-M    "
+echo ""
+echo -e $white"  >>   email     : m413-m@dr.com     "
+echo -e $white"  >>   instagram : mr.malem    "
+
+sleep 1
+exit
+}
+################################################################
+echo -e $white"    			 >>  Auto Install Tools By M413-M  <<"
+echo -e $yellow"OoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoO"
+echo ""
+echo -e $blue "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+echo -e -n $blue" [X]> USER 		: " $green; whoami
+echo -e -n $blue" [X]> TIME 		: " $green; date
+echo -e -n $blue" [X]> ACTIVE		: "$green; uptime
+echo -e $blue "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+echo ""
+echo -e $red" [X]> Thanks To : "
+echo -e $red"   			4WSec $white "~" $red "Mr.Tenwap $white" "~" $red "ChokyChoky.ID" "
+echo -e $white" [X]> Greetz    : "
+echo -e $white"   		Anak Bawang Cyber$red "X" $white"Security Darknet"$red "X" $white"Moslem Cyber Team""
+echo ""
+echo ""
+echo -e $green"				contact : m413-m@dr.com"
+
+echo -e $yellow"OoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoO"
+echo ""
+################################################################
+echo -e $green" #     Select Tools For Install "
+echo ""
+echo -e $white"  {01}  RED HAWK"
+echo -e $white"  {02}  Admin Finder"
+echo -e $white"  {03}  XAttacker for Linux "
+echo -e $white"  {04}  XAttacker for Termux "
+echo -e $white"  {05}  Open Vpn "
+echo -e $white"  {06}  PUPPY "
+echo -e $white"  {07}  SQLMAP "
+echo -e $white"  {08}  Metasploit Framework "
+echo -e $white"  {09}  RouterSploit "
+echo -e $white"  {10}  Aircrack-ng "
+echo -e $white"  {11}  IPGeolocation "
+echo -e $white"  {12}  UFONet "
+echo -e $white"  {13}  BruteSploit "
+echo -e $white"  {14}  InstaHack "
+echo -e $white"  {15}  Facebook-Bruter"
+echo -e $white"  {16}  Wifite"
+echo -e $white"  {17}  WIfi Phisher"
+echo -e $white"  {18}  Hammer"
+echo -e $white"  {19}  Katoolin"
+echo -e $white"  {20}  Hydra"
+echo -e $white"  {21}  D-TECT"
+echo ""
+echo "" 
+echo ""
+echo -e $red "Type ( Ctrl C ) For Exit"
+
+
+
+echo ""
+read -p "         [ Choose Number for Install ] >>  " sd;
+
+if [ $sd = 01 ] || [ $sd = 01 ]
+then 
+clear
+echo -e $white" >> Installing RED HAWK << "
+echo ""
+apt install php
+apt install git
+git clone https://github.com/Tuhinshubhra/RED_HAWK
+echo ""
+echo -e $red" >> [RED HAWK Installed] << "
+fi
+if [ $sd = 02 ] || [ $sd = 02 ]
+then
+clear
+echo -e $white" >> Installing Admin Finder << "
+echo -e ""
+git clone https://github.com/the-c0d3r/admin-finder.git
+echo ""
+echo -e $red" >> [Admin Finder Installed] << "
+fi
+if [ $sd = 03 ] || [ $sd = 03]
+then
+clear
+echo -e $white" >> Installing XAttacker << "
+echo ""
+git clone https://github.com/Moham3dRiahi/XAttacker.git
+echo ""
+echo -e $red " >> [Xattacker Installed] << "
+fi
+if [ $sd = 04 ] || [ $sd = 04 ]
+then
+clear
+echo -e $white" >> Installing XAttacker << "
+echo ""
+git clone https://github.com/Moham3dRiahi/XAttacker.git
+cd XAttacker
+chmod +x termux-install.sh
+bash termux-install.sh
+echo ""
+echo -e $red" >> [XAttacker Installed] << "
+fi
+if [ $sd = 05 ] || [ $sd = 05 ]
+then
+clear
+echo -e $white" >> Installing AutoVpn << "
+echo ""
+sudo apt-get install openvpn
+git clone https://github.com/adtac/autovpn.git
+echo ""
+echo -e $red" >> [AutoVpn Installed] << "
+fi
+if [ $sd = 06 ] || [ $sd = 06 ]
+then
+clear
+echo -e $white" >> Installing PUPPY << "
+echo ""
+git clone https://github.com/n1nj4sec/pupy.git pupy
+cd pupy
+git submodule init
+git submodule update
+pip install -r pupy/requirements.txt
+wget https://github.com/n1nj4sec/pupy/releases/download/latest/payload_templates.txz
+tar xvf payload_templates.txz && mv payload_templates/* pupy/payload_templates/ && rm payload_templates.txz && rm -r payload_templates
+echo ""
+echo -e $red" >> [PUPPY Installed] << "
+fi
+if [ $sd = 07 ] || [ $sd = 07 ]
+then
+clear
+echo -e $white" >> Installing SQLMAP << "
+echo ""
+git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
+echo ""
+echo -e $red" >> [SQLMAP Installed] << "
+fi
+if [ $sd = 08 ] || [ $sd = 08 ]
+then
+clear
+echo -e $white" >> Installing Metasploit Framework<< "
+echo ""
+sudo apt-get install build-essential libreadline-dev libssl-dev libpq5 libpq-dev libreadline5 libsqlite3-dev libpcap-dev openjdk-7-jre subversion git-core autoconf postgresql pgadmin3 curl zlib1g-dev libxml2-dev libxslt1-dev vncviewer libyaml-dev ruby1.9.3
+sudo gem install wirble sqlite3 bundler
+sudo apt-get install nmap
+apt install git
+apt install wget
+wget https://raw.githubusercontent.com/verluchie/termux-metasploit/master/install.sh
+chmod 777 install.sh
+sh install.sh
+echo ""
+echo -e $red" >> [Metasploit Framework Installed] << "
+fi
+if [ $sd = 09 ] || [ $sd = 09 ]
+then
+clear
+echo -e $white" >> Installing RouterSploit<< "
+echo ""
+
+apt-get update && upgrade
+apt-get install python3-pip
+git clone https://www.github.com/threat9/routersploit
+cd routersploit
+python3 -m pip install -r requirements.txt
+python3 rsf.py
+cd ..
+echo ""
+echo -e $red" >> [RouterSploit Installed] << "
+fi
+if [ $sd = 10 ] || [ $sd = 10 ]
+then
+clear
+echo -e $white" >> Installing Aircrack-ng<< "
+echo ""
+sudo apt-get install build-essential autoconf automake libtool pkg-config libnl-3-dev libnl-genl-3-dev libssl-dev libsqlite3-dev libpcre3-dev ethtool shtool rfkill zlib1g-dev libpcap-dev
+sudo apt-get install aircrack-ng
+echo ""
+echo -e $red" >> [Aircrack-ng Installed] << "
+fi
+if [ $sd = 11 ] || [ $sd = 11 ]
+then
+clear
+echo -e $white" >> Installing IPGeolocation<< "
+echo ""
+sudo apt-get install git
+sudo apt install python
+sudo apt-get install python3-setuptools
+easy_install3 pip
+git clone https://github.com/maldevel/IPGeolocation.git
+cd IPGeolocation
+chmod +x ipgeolocation.py
+pip install -r requirements.txt
+cd ..
+echo ""
+echo -e $red" >> [IPGeolocation Installed] << "
+fi
+if [ $sd = 12 ] || [ $sd = 12 ]
+then 
+clear
+echo -e $white" >> Installing UFONet << "
+echo ""
+git clone https://github.com/epsylon/ufonet.git
+cd ufonet
+sudo apt-get install python-pycurl python-geoip python-whois python-crypto python-requests
+pip install geoip
+pip install requests
+pip install pycrypto
+echo ""
+echo -e $red" >> [UFONet Installed] << "
+fi
+if [ $sd = 13 ] || [ $sd = 13 ]
+then 
+clear
+echo -e $white" >> Installing BruteSploit << "
+echo ""
+git clone https://github.com/Screetsec/Brutesploit.git
+cd Brutesploit
+chmod +x Brutesploit
+echo ""
+echo -e $red" >> [BruteSploit Installed] << "
+fi
+if [ $sd = 14 ] || [ $sd = 14 ]
+then 
+clear
+echo -e $white" >> Installing InstaHack << "
+echo ""
+git clone https://github.com/avramit/Instahack.git
+sudo apt-get install python3-pip
+pip install argparse requests PySocks asyncio proxybroker
+echo ""
+echo -e $red" >> [InstaHack Installed] << "
+fi
+if [ $sd = 15 ] || [ $sd = 15 ]
+then 
+clear
+echo -e $white" >> Installing Facebook-Bruter << "
+echo ""
+sudo apt-get update && upgrade
+git clone https://github.com/imadoxhunter/Facebook-Bruter.git
+echo ""
+echo -e $red" >> [Facebook-Bruter Installed] << "
+fi
+if [ $sd = 16 ] || [ $sd = 16 ]
+then 
+clear
+echo -e $white" >> Installing Wifite << "
+echo ""
+sudo apt-get update && upgrade
+git clone https://github.com/derv82/wifite.git
+cd wifite
+chmod +x wifite.py
+echo ""
+echo -e $red" >> [Wifite Installed] << "
+fi
+if [ $sd = 17 ] || [ $sd = 17 ]
+then 
+clear
+echo -e $white" >> Installing Wifi Phisher << "
+echo ""
+git clone https://github.com/wifiphisher/wifiphisher.git
+cd wifiphisher
+sudo python setup.py install
+echo ""
+echo -e $red" >> [Wifi Phisher Installed] << "
+fi
+if [ $sd = 18 ] || [ $sd = 18 ]
+then 
+clear
+echo -e $white" >> Installing Hammer << "
+echo ""
+sudo apt-get update && upgrade
+git clone https://github.com/cyweb/hammer.git
+cd hammer
+chmod +x hammer.py
+echo ""
+echo -e $red" >> [Hammer Installed] << "
+fi
+if [ $sd = 19 ] || [ $sd = 19 ]
+then 
+clear
+echo -e $white" >> Installing Katoolin << "
+echo ""
+sudo git clone https://github.com/LionSec/katoolin.git && cp katoolin/katoolin.py /usr/bin/katoolin
+chmod +x /usr/bin/katoolin
+sudo katoolin
+echo ""
+echo -e $red" >> [Katoolin Installed] << "
+fi
+if [ $sd = 20 ] || [ $sd = 20 ]
+then 
+clear
+echo -e $white" >> Installing Hydra << "
+echo ""
+sudo apt-get install hydra
+wget http://scrapmaker.com/download/data/wordlists/dictionaries/rockyou.txt
+echo ""
+echo -e $red" >> [Hydra Installed] << "
+fi
+if [ $sd = 21 ] || [ $sd = 21 ]
+then 
+clear
+echo -e $white" >> Installing D-TECT << "
+echo ""
+git clone https://github.com/shawarkhanethicalhacker/D-TECT.git
+echo ""
+echo -e $red" >> [D-TECT Installed] << "
+fi
